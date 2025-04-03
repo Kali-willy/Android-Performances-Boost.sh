@@ -1,0 +1,106 @@
+﻿# How to Run the Android Performance Booster Script in Termux
+
+## 🔄 Step 1: Install Termux
+Download and install Termux from **Google Play Store** or **F-Droid**.
+
+---
+
+## 🔧 Step 2: Set up Termux
+Open Termux and update the package repositories:
+```sh
+pkg update && pkg upgrade -y
+```
+
+---
+
+## 🛠️ Step 3: Install Required Packages
+Install the necessary packages:
+```sh
+pkg install nano
+```
+
+---
+
+## 📂 Step 4: Create the Script File
+Create a new file for the script:
+```sh
+nano Android-Performances-Boost.sh
+```
+
+---
+
+## 📋 Step 5: Paste the Script
+Copy the entire script and paste it into Termux.
+
+To paste in Termux:
+- **Long press** anywhere on the screen
+- Select **"Paste"** from the menu that appears
+
+---
+
+## 💾 Step 6: Save the File
+Save the file by pressing:
+- `Ctrl + X` (Exit nano)
+- Press `Y` (Confirm save)
+- Press `Enter` (Confirm filename)
+
+---
+
+## 🛢️ Step 7: Make the Script Executable
+Give the script execution permissions:
+```sh
+chmod +x Android-Performances-Boost.sh
+```
+
+---
+
+## 🔒 Step 8: Grant Termux Permissions
+Termux needs special permissions to modify system settings:
+```sh
+termux-setup-storage
+```
+- A **permission dialog** will appear
+- Tap **"Allow"**
+
+---
+
+## 🚀 Step 9: Run the Script
+Execute the script:
+```sh
+./Android-Performances-Boost.sh
+```
+
+---
+
+## 📈 Step 10: Follow On-Screen Instructions
+The script will display **cool animations** and show the progress of various optimizations.
+
+---
+
+## ⚠️ Troubleshooting
+
+### 🚫 Permission Denied
+Make sure you ran:
+```sh
+chmod +x Android-Performances-Boost.sh
+```
+
+### 🛡️ Command Not Found
+Make sure you're in the correct directory where you saved the script.
+
+### ⚠️ Settings Commands Not Working
+Some Android versions **restrict certain settings commands**. The script will skip those and continue with others.
+
+### 🔄 Script Not Running
+Try running it with:
+```sh
+bash Android-Performances-Boost.sh
+```
+
+---
+
+### 🎯 Reminder
+Run this script **periodically** as the optimization effects are temporary and reset after a device restart.
+
+🛠️ Enjoy a **faster and smoother** Android experience! 🚀
+
